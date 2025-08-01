@@ -9,7 +9,7 @@ from langchain_community.callbacks.manager import get_openai_callback
 from src.mcqgenerator.MCQGenerator import generate_evaluate_chain
 from src.mcqgenerator.logger import logging
 
-with open('C:\Users\ASIF\mcqgen\Response.json','r') as file:
+with open(r'C:\Users\ASIF\mcqgen\Response.json','r') as file:
     Response_Json=json.load(file)
     
 st.title("MCQs Creator Application using LangChain....!!!!")
@@ -19,7 +19,7 @@ with st.form("User_inputs"):
     
     mcq_count=st.number_input("No.of MCQs",min_value=3,max_value=50)
     subject=st.text_input("Insert Subject",max_chars=20)
-    tone=st.text_input("Complexity level of questions",max_chars=20,placeholder="simple")
+    tone=st.text_input("Complexity level of questions",max_chars=20,placeholder="Simple | Normal | Hard")
     # Add button
     button=st.form_submit_button("Create MCQs")
     
