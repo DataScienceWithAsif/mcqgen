@@ -1,4 +1,4 @@
 env
 .env
 experiment
-experiment.mcq.ipynb
+experiment/mcq.ipynb
