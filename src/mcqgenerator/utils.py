@@ -3,7 +3,6 @@ import PyPDF2
 import json
 import traceback
 
-
 def read_file(file):
     if file.name.endswith(".pdf"):
         try:
