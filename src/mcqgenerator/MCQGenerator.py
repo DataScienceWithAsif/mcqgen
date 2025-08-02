@@ -14,7 +14,7 @@ import PyPDF2
 
 from src.mcqgenerator.utils import read_file, get_table_data
 from src.mcqgenerator.logger import logging
-from env.Lib.tabnanny import verbose
+
 
 # load environment variables from .env file
 load_dotenv()
