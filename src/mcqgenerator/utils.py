@@ -2,7 +2,7 @@ import os
 import PyPDF2
 import json
 import traceback
-from env.Lib.asyncore import read
+
 
 def read_file(file):
     if file.name.endswith(".pdf"):
