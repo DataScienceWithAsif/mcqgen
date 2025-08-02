@@ -1,6 +1,6 @@
 MCQ,Choices,correct_Ans
-What is the purpose of the Next Sentence Prediction (NSP) task in BERT?,a: Detecting if two sentences have similar meanings | b: Determining if the meanings of two sentences entail or contradict each other | c: Deciding if two neighboring sentences form a coherent discourse | d: Predicting whether a pair of sentences are adjacent or unrelated,d
-"In BERT, what percentage of training pairs consist of positive pairs for the NSP task?",a: 25% | b: 50% | c: 75% | d: 100%,b
-What does the [CLS] token represent in the input representation of BERT for NSP?,a: The first sentence of the pair | b: The second sentence of the pair | c: The prediction for the NSP task | d: The token indicating the end of the input,c
-How is the token [SEP] used in the input representation of BERT for NSP?,a: Prepended to the input sentence pair | b: Placed between the sentences and after the final token of the second sentence | c: Associated with the [CLS] token | d: Ignored during training,b
-What is the basis of the NSP loss in BERT for distinguishing true pairs from random pairs?,a: How well the model can tokenize the input | b: The length of the input sentences | c: The accuracy of predicting the next sentence | d: How well the model can distinguish true pairs from random pairs,d
+What is the purpose of the Next Sentence Prediction (NSP) task in BERT training?,a: To predict the next word in a sentence | b: To determine if two sentences have similar meanings | c: To classify images in a dataset | d: To generate new text based on input,b
+How is the NSP loss calculated in BERT training?,a: Based on the length of the input sentences | b: Based on the model's ability to distinguish true pairs from random pairs | c: Based on the number of layers in the model | d: Based on the learning rate of the optimizer,b
+What tokens are introduced to the input representation in BERT for NSP?,a: [CLS] and [SEP] | b: [START] and [END] | c: [TOKEN] and [MASK] | d: [BEGIN] and [STOP],a
+"In BERT training, what does the output vector from the final layer associated with the [CLS] token represent?",a: The first sentence in the pair | b: The second sentence in the pair | c: The next sentence prediction | d: The loss function value,c
+What percentage of training pairs in BERT consists of positive pairs for NSP?,a: 25% | b: 50% | c: 75% | d: 100%,b
