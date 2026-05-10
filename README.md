@@ -45,7 +45,7 @@ and then provides a short quality review of the generated quiz.
 ### Requirements to run
 
 - Python environment with dependencies from `requirements.txt`
-- OpenAI API key available in environment (for example through `.env`)
+- OpenAI API key available in environment (the app reads `openai_api_key`; in `.env`, set `openai_api_key=your_key_here`)
 - Streamlit app execution:
   `python3 -m streamlit run StreamlitApp.py`
 
